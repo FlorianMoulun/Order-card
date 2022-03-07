@@ -1,0 +1,113 @@
+body{
+  background-image: url(assets/media/pattern-background-desktop.svg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-color: #E0E8FF;
+}
+.container{
+  height: 100vh;
+border-radius: 30px;
+
+
+}
+
+.card{
+  width: 30rem;
+  height: 45rem;
+  border-radius: 30px; 
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+
+}
+
+
+.row .d-flex img{
+  width: 3rem;
+  height: 3rem;
+}
+
+.row{
+  background-color:#F7F9FF ;
+    border-radius: 30px;
+}
+.card-img-top{
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+.bottomcard {
+  border-radius: 11px;
+  margin-top: -4vh;
+}
+
+.btn-primary{
+  background-color:#382AE1 ;
+  border-radius: 10px;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+
+}
+.bg-717FA6{
+  color: #717FA6;
+  border: none;
+}
+.btn-primary:focus{
+  
+  box-shadow: none !important;
+  outline: none !important; 
+
+}
+.bg-717FA6:focus{
+  
+  box-shadow: none !important;
+  outline: none !important; 
+
+}
+.link{
+  color: #382AE1;
+  text-decoration: underline;
+  margin-left: 6vh;
+}
+.price{
+  color: #717FA6
+}
+.paragraphe{
+  color: #717FA6;
+  margin-top: -3vh;
+}
+.btn-primary:hover{
+  background-color: #766CF1;
+}
+.bg-717FA6:hover{
+  color:#1F2E55 ;
+}
+.link:hover{
+  color: #766CF1;
+  text-decoration: none;
+}
+.card-title{
+  padding-top: 3vh;
+}
+.annual-price{
+  padding-left: 3vh;
+}
+
+@media only screen and (max-width: 430px){
+
+.card{
+  width: 90vw;
+}
+.link{
+  margin-left: 0vh;
+}
+}
+@media only screen and (max-width: 390px){
+.link{
+  margin-left: -5vh;
+}
+}
+@media only screen and (max-width: 340px){
+  .link{
+    margin-left: -5vh;
+  }
+  .annual-price{
+    padding-left: 0vh;
+  }
+}
